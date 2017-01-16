@@ -6,3 +6,4 @@
 ## 目标
 * Task类：CTaskThread，一次性的执行任务，线性，重载虚函数Run即可完成，可以随时检查线程状态。
 * Check类：CCheckThread，派生子CTaskThread，用于执行检查任务，循环执行。重载虚函数ThreadBody()即可完成。另外有InitialThread()用于线程开始前申请资源，Cleanup()用于线程结束前清场。
+2017年1月26日前提交0.1版本
